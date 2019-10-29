@@ -9,11 +9,9 @@ package com.advancedoop;
  *
  * @author 0273898
  */
-public class Main {
-    public static void main(String[] args) {
-        
-        Tiger tony = new Tiger(5);
-        
-        System.out.println(tony.getSpeciesName());
+public class InvalidEmailException extends Exception{
+    public InvalidEmailException(String message) {
+        super(message);
     }
+    
 }

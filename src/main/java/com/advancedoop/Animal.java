@@ -9,11 +9,18 @@ package com.advancedoop;
  *
  * @author 0273898
  */
-public class Main {
-    public static void main(String[] args) {
+public class Animal {
+    private String speciesName;
+    
+    public Animal(String speciesName) {
+        this.speciesName = speciesName;
         
-        Tiger tony = new Tiger(5);
-        
-        System.out.println(tony.getSpeciesName());
     }
+    
+    public 
+        String getSpeciesName() {
+        return this.speciesName;
+        
+    }
+    
 }
